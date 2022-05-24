@@ -1,0 +1,218 @@
+:root {
+    --fuente-principal: 'Adamina', serif;
+    --fuente-titulo: 'Rubik Glitch', cursive;
+
+    /* Paleta de colores */
+    --negro: #000000;
+    --blanco: #ffffff;
+    --rojo: #ff0000;
+
+
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: var(--fuenteParrafos);
+    font-size: 1.6rem;
+    line-height: 2;
+    background-color: var(--negro);
+    color: var(--blanco);
+}
+
+h1,
+h2,
+h3 {
+    text-transform: uppercase;
+}
+
+h1 {
+    font-size: 3.8rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 2.6rem;
+}
+
+.contenedor {
+    width: min(90%, 120rem);
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+a {
+    text-decoration: none;
+    color: var(--blanco);
+    padding: 0 1rem;
+}
+
+.navegacion-principal {
+    text-transform: uppercase;
+
+}
+
+.navegacion-principal-lista {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.titulo {
+    font-size: 5rem;
+    font-family: var(--fuente-titulo);
+    color: var(--blanco);
+    margin: 2rem;
+
+}
+
+
+.caja {
+    display: inline-block;
+    border: 2px solid #ffffff;
+    padding: 1rem;
+}
+
+/* main */
+
+.titulo-main {
+    position: absolute;
+    font-size: 10rem;
+    font-family: var(--fuente-titulo);
+}
+
+.bg-image {
+    width: 50%;
+
+
+}
+
+.caja-roja {
+    position: relative;
+    width: 250px;
+    height: 350px;
+    background-color: var(--rojo);
+}
+
+.contactanos {
+    text-transform: uppercase;
+}
+
+/* footer */
+.footer {
+    text-align: center;
+}
+
+/* Nosotros */
+.fa-brands,
+.fa-whatsapp {
+    color: green;
+}
+
+.info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+/* e-shop */
+
+.item {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+/* RESERVACIONES */
+.main-reserv {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+    column-gap: 5rem;
+}
+
+.container {
+    margin: 5em auto;
+    width: 700px;
+
+
+}
+
+.title {
+    text-align: center;
+    margin: .2em 0;
+    color: var(--blanco);
+    font-size: 3em;
+    text-shadow: 1px 3px 0 #969696, -8px 15px 5px #aba8a8;
+
+}
+
+.calendar {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    text-align: center;
+    border-radius: 25%;
+
+}
+
+.day {
+    list-style: none;
+    text-align: center;
+    padding: .3em .5em;
+    border: 1px solid #ddd;
+    border-radius: 25%;
+    height: 4em;
+    padding-top: 1em;
+    background-color: var(--blanco);
+    color: var(--negro);
+    font-weight: 700;
+    font-size: 1.8em;
+}
+
+.day-name {
+    font-weight: 700;
+    text-align: center;
+    list-style: none;
+}
+
+.form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5,1fr);
+    row-gap: 10rem;
+
+}
+.gout{
+    color: #969696;
+}
+.morado{
+    background-color: #b376c5;
+}
+.verde{
+    background-color: aquamarine;
+}
+.day:hover{
+    background-color: #969696;
+}
+.m-oscuro{
+    background-color: #9229b3;
+}
+
